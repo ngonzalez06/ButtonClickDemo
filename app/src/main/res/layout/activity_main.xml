@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.ericsauber.buttonclickdemo.MainActivity">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="107dp"
+        android:background="#eaeaea"
+        android:onClick="gotoInstructionsActivity"
+        android:text="Instructions"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="175dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="7dp"
+        android:background="#eaeaea"
+        android:onClick="gotoTutorialActivity"
+        android:text="Tutorial"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:background="#eaeaea"
+        android:onClick="gotoColorActivity"
+        android:text="Change Color"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="561dp"
+        android:layout_height="491dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833"
+        app:srcCompat="@drawable/cat7e8a4419a7320e28eddc4c8635e602ff" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="213dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="28dp"
+        android:background="@null"
+        android:onClick="gotoGameActivity"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/btn_playgame"
+        app:layout_constraintHorizontal_bias="0.502" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:shadowColor="#FF0000"
+        android:text="Main Menu"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="50sp"
+        android:typeface="monospace"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/levels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="166dp"
+        android:onClick="gotoLevels"
+        android:text="levels"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
