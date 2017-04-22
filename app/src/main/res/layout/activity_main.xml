@@ -11,7 +11,7 @@
         android:id="@+id/button7"
         android:layout_width="175dp"
         android:layout_height="40dp"
-        android:layout_marginTop="107dp"
+        android:layout_marginTop="73dp"
         android:background="#eaeaea"
         android:onClick="gotoInstructionsActivity"
         android:text="Instructions"
@@ -39,7 +39,7 @@
         android:id="@+id/button10"
         android:layout_width="175dp"
         android:layout_height="40dp"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="52dp"
         android:background="#eaeaea"
         android:onClick="gotoColorActivity"
         android:text="Change Color"
@@ -58,7 +58,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.833"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/cat7e8a4419a7320e28eddc4c8635e602ff" />
 
     <ImageView
@@ -98,17 +98,6 @@
         android:visibility="invisible"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/levels"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="148dp"
-        android:layout_marginTop="166dp"
-        android:onClick="gotoLevels"
-        android:text="levels"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
